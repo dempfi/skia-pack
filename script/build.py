@@ -36,7 +36,8 @@ def main():
     'skia_use_system_harfbuzz=false',
     'skia_pdf_subset_harfbuzz=true',
     'skia_use_system_icu=false',
-    'skia_enable_skottie=true'
+    'skia_enable_skottie=true',
+    'is_component_build=true'
   ]
 
   if 'macos' == target or isIos or isTvos:
